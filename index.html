@@ -60,6 +60,7 @@ section{padding:110px 0;position:relative}
 
 /* HERO */
 .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:72px}
+@media(max-width:640px){.hero{padding-top:20px}}
 .hero-gbg{position:absolute;inset:0;background-image:linear-gradient(rgba(245,197,24,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(245,197,24,.03) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse at 30% 50%,black 20%,transparent 70%)}
 .hero-orb{position:absolute;border-radius:50%;filter:blur(80px);pointer-events:none}
 .hero-o1{width:500px;height:500px;background:rgba(245,197,24,.06);top:-100px;right:-100px;animation:float1 8s ease infinite}
@@ -173,7 +174,7 @@ section{padding:110px 0;position:relative}
 .rc-st{color:var(--y);font-size:.9rem;letter-spacing:2px;margin-bottom:14px}
 .rc-tx{font-size:.92rem;font-weight:300;color:var(--g1);line-height:1.7}
 .rb{display:flex;justify-content:center;gap:40px;margin-top:48px}
-.rbl{display:flex;align-items:center;gap:14px;padding:18px 28px;background:var(--bg3);border:1px solid var(--brd);border-radius:var(--rl)}
+.rbl{display:flex;align-items:center;gap:14px;padding:18px 28px;background:var(--bg3);border:1px solid var(--brd);border-radius:var(--rl);min-width:280px}
 .rbl-n{font-family:var(--fd);font-size:2.4rem;color:var(--y)}.rbl-i{font-size:.82rem;color:var(--g1)}
 .rbl-i strong{display:block;font-size:.95rem;color:var(--w)}
 
@@ -200,7 +201,7 @@ section{padding:110px 0;position:relative}
 .fg input:focus,.fg textarea:focus{border-color:var(--y);box-shadow:0 0 0 3px var(--y10)}
 .fg input::placeholder,.fg textarea::placeholder{color:var(--g3)}
 .fg textarea{resize:vertical;min-height:90px}
-.fnote{font-size:.72rem;color:var(--g3);margin-top:14px;line-height:1.5}
+.fnote{font-size:.72rem;color:var(--y);margin-top:14px;line-height:1.5;opacity:.7}
 
 /* MAP */
 .map-w{height:420px;position:relative;background:var(--bg);overflow:hidden}
@@ -245,7 +246,7 @@ section{padding:110px 0;position:relative}
 .rev-g{grid-template-columns:1fr}.svc-g{grid-template-columns:repeat(2,1fr)}
 .gallery-item{width:280px;height:200px}
 }
-@media(max-width:640px){
+@media(max-width:640px){.hdr{display:none}
 section{padding:72px 0}.mcta{display:block}body{padding-bottom:72px}
 .hero-stats{flex-direction:column;gap:20px}.why-g,.stp-r,.svc-g{grid-template-columns:1fr}
 .hero-btns{flex-direction:column}.hero-btns .btn{width:100%;justify-content:center}
