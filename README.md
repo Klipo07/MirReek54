@@ -6,10 +6,18 @@
 
 ## Скриншоты
 
-<!-- Раскомментируй после загрузки скриншотов в папку screenshots/ -->
-<!-- ![Главная страница](screenshots/main.png) -->
-<!-- ![Услуги и цены](screenshots/services.png) -->
-<!-- ![Контакты](screenshots/contacts.png) -->
+
+![Главная страница](screenshots/1.png)
+![Кратко услуги](screenshots/2.png)
+![Фото](screenshots/3.png)
+![Описание фоток](screenshots/4.png)
+![Все цены](screenshots/5.png)
+![Почему мы крутые](screenshots/6.png)
+![Как оставить заявку](screenshots/7.png)
+![Доверие](screenshots/8.png)
+![Форма обратной связи](screenshots/9.png)
+![Яндекс карты](screenshots/10.png)
+
 
 ## О проекте
 
